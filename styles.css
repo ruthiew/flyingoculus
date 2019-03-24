@@ -85,9 +85,7 @@ li {
   #text {
         font-size: 1em;
         padding-top: 60px;    
-    }    
-}
-
+    }  
 @media only screen and (max-width: 680px) {
   h1 {
     font-size: 3em;
@@ -99,5 +97,5 @@ li {
     font-size: 1.5em;
     margin-bottom: 35px;  
     text-align: left; 
-}      
-}
+} 
+} 
