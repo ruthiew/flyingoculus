@@ -1,0 +1,103 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    color: #313131;
+    align-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 1em;
+}
+
+a:link, a:visited { 
+  color: #313131;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link:active, a:visited:active { 
+  color: #313131;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 2em;
+    margin: 40px;
+    text-align: left;  
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.main {
+    position: relative;
+    top: 200px;
+    padding-top: 15px;
+}
+
+#text {
+    font-size: 1.5em;
+    padding: 60px;
+
+}
+
+#page {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+#page img {
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+  p  {
+    font-size: 0.8em;
+}
+  li {
+    font-size: 1.25em;
+    margin-bottom: 35px;  
+    text-align: left;
+}    
+  #text {
+        font-size: 1em;
+        padding-top: 60px;    
+    }    
+}
+
+@media only screen and (max-width: 680px) {
+  h1 {
+    font-size: 3em;
+  }
+    #text {
+        font-size: 1.25em;
+    }  
+  li {
+    font-size: 1.5em;
+    margin-bottom: 35px;  
+    text-align: left; 
+}      
+}
