@@ -89,7 +89,8 @@ li {
     #page {
         margin-left: 0px;
         margin-right: 0px;
-    }    
+    } 
+
 @media only screen and (min-width: 680px) {
   h1 {
     font-size: 3em;
