@@ -70,6 +70,13 @@ li {
     display: block;
 }
 
+#accent-img {
+    height: auto;
+    width: auto;
+}
+
+/* MOBILE MEDIA QUERY */
+
 @media only screen and (min-width: 320px) {
   h1 {
     font-size: 2em;
@@ -89,7 +96,14 @@ li {
     #page {
         margin-left: 0px;
         margin-right: 0px;
-    }    
+    } 
+   #accent-img {
+        max-width: 300px;
+        height: auto;
+    }       
+    
+    /* SMALL SCREEN MEDIA QUERY */
+    
 @media only screen and (min-width: 680px) {
   h1 {
     font-size: 3em;
@@ -106,15 +120,24 @@ li {
     #page {
         margin-left: 70px;
         margin-right: 70px;
-    }    
+    } 
+  #accent-img {
+        max-width: 508px;
+        height: auto;
+    }     
 } 
 
+    /* LARGE SCREEN MEDIA QUERY */
+    
 @media only screen and (min-width: 800px) {
     #page {
         margin-left: 100px;
         margin-right: 100px;
-    }        
+    }     
     }  
+    
+    /* EXTRA LARGE SCREEN MEDIA QUERY */
+    
 @media only screen and (min-width: 1280px) {
     #page {
         margin-left: 300px;
