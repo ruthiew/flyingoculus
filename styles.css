@@ -55,7 +55,6 @@ li {
 #text {
     font-size: 1.5em;
     padding: 60px;
-
 }
 
 #page {
@@ -99,7 +98,9 @@ li {
 }    
   #text {
         font-size: 1em;
-        padding-top: 60px;    
+        padding-top: 60px;
+        margin-left: 1em;
+        margin-right: 1em;
     }  
     #page {
         margin-left: 0px;
@@ -112,6 +113,8 @@ li {
   }
     #text {
         font-size: 1.25em;
+        margin-left: 5em;
+        margin-right: 5em;
     }  
   li {
     font-size: 1.5em;
@@ -129,11 +132,19 @@ li {
     #page {
         margin-left: 100px;
         margin-right: 100px;
-    }        
+    }  
+    #text {
+        margin-left: 10em;
+        margin-right: 10em;
+    }
     }  
 @media only screen and (min-width: 1280px) {
     #page {
         margin-left: 300px;
         margin-right: 300px;
-    }        
+    }   
+    #text {
+        margin-left: 20em;
+        margin-right: 20em;
+    }
     }     
