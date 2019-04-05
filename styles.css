@@ -70,6 +70,21 @@ li {
     display: block;
 }
 
+#set-height {
+    padding-bottom: 20px;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    } 
+
+#v0 { 
+    top: 0;  
+    left: 0;  
+    width: 100%; 
+    }
+   
+
 @media only screen and (min-width: 320px) {
   h1 {
     font-size: 2em;
