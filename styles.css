@@ -39,6 +39,22 @@ li {
     text-align: left;  
 }
 
+button {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: white;
+    background-color: white; /* Green */
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
 .header {
     position: fixed;
     width: 100%;
@@ -74,6 +90,20 @@ li {
     height: auto;
     width: auto;
 }
+
+#set-height {
+   display: block;
+   height: 13500px;
+} 
+  
+#v0 {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  left: 0;  
+  height: 100%;
+}
+
 
 /* MOBILE MEDIA QUERY */
 
