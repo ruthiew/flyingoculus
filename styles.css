@@ -1,10 +1,18 @@
+/* SITE COLORS 
+#ffffff
+#f2f2f2
+#b3b3b3
+#d9d9d9
+#313131
+*/
+
 body {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     color: #313131;
     align-content: center;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1 {
@@ -26,7 +34,7 @@ a:link:active, a:visited:active {
 }
 
 a:hover {
-    color: #cccccc;
+    color: #B3B3B3;
 }
 
 ul {
@@ -39,20 +47,26 @@ li {
     text-align: left;  
 }
 
-button {
+.button {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
     font-size: 1em;
-    color: white;
-    background-color: white; /* Green */
-    border: 1px solid #cccccc;
+    background-color: #313131; 
+    /* border: 1px solid #cccccc; */
     border-radius: 8px;
-    color: white;
     padding: 15px 32px;
-    margin: 10px;
+    margin: 10px 10px 60px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+.button a:link, a:visited { 
+  color: #b3b3b3;
+}
+
+.button a:hover {
+    color: #F2F2F2;
 }
 
 .header {
@@ -74,12 +88,12 @@ button {
 
 }
 
-#page {
+.page {
     overflow: hidden;
     padding-bottom: 20px;
 }
 
-#page img {
+.page img {
     min-width: 100%;
     max-width: 100%;
     height: auto;
@@ -93,15 +107,19 @@ button {
 
 #set-height {
    display: block;
-   height: 13500px;
-} 
-  
+   height: 14500px;
+}   
 #v0 {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  left: 0;  
-  height: 100%;
+  position: fixed;     
+  top: 200px;
+  left: 0;    
+  width: 100%;  
+  margin-left:     
+}
+
+#dream {
+    position: relative;
+    top: 14500px;
 }
 
 
@@ -125,7 +143,7 @@ button {
         margin-left: 1em;
         margin-right: 1em;
     }  
-    #page {
+    .page {
         margin-left: 0px;
         margin-right: 0px;
     } 
@@ -151,7 +169,7 @@ button {
     text-align: left; 
         
 } 
-    #page {
+    .page {
         margin-left: 70px;
         margin-right: 70px;
     } 
@@ -164,7 +182,7 @@ button {
     /* LARGE SCREEN MEDIA QUERY */
     
 @media only screen and (min-width: 800px) {
-    #page {
+    .page {
         margin-left: 100px;
         margin-right: 100px;
     }   
@@ -177,7 +195,7 @@ button {
     /* EXTRA LARGE SCREEN MEDIA QUERY */
     
 @media only screen and (min-width: 1280px) {
-    #page {
+    .page {
         margin-left: 300px;
         margin-right: 300px;
     }  
